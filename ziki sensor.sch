@@ -1,0 +1,191 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L robo-rescue:Pro_micro U28
+U 1 1 58853905
+P 4550 2700
+F 0 "U28" H 4550 2750 60  0000 C CNN
+F 1 "Pro_micro" H 4550 2650 60  0000 C CNN
+F 2 "footprint:Pro_micro" H 4350 2650 60  0001 C CNN
+F 3 "" H 4350 2650 60  0000 C CNN
+	1    4550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR040
+U 1 1 58853913
+P 6050 2650
+F 0 "#PWR040" H 6050 2500 50  0001 C CNN
+F 1 "+5V" H 6000 2800 50  0000 C CNN
+F 2 "" H 6050 2650 50  0000 C CNN
+F 3 "" H 6050 2650 50  0000 C CNN
+	1    6050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR041
+U 1 1 58853919
+P 4550 1850
+F 0 "#PWR041" H 4550 1700 50  0001 C CNN
+F 1 "+5V" H 4500 2000 50  0000 C CNN
+F 2 "" H 4550 1850 50  0000 C CNN
+F 3 "" H 4550 1850 50  0000 C CNN
+	1    4550 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3850 5400 3150
+Wire Wire Line
+	5400 3150 5300 3150
+Wire Wire Line
+	5900 2650 5300 2650
+Wire Wire Line
+	5900 2000 5900 2650
+Wire Wire Line
+	7050 2000 5900 2000
+Wire Wire Line
+	7050 2800 7050 2000
+Wire Wire Line
+	6850 2800 7050 2800
+Wire Wire Line
+	6850 2650 6850 2800
+Wire Wire Line
+	6450 3050 5300 3050
+Wire Wire Line
+	6450 2650 6450 3050
+Wire Wire Line
+	6350 2950 5300 2950
+Wire Wire Line
+	6350 2650 6350 2950
+Wire Wire Line
+	6050 2650 6150 2650
+$Comp
+L power:GND #PWR042
+U 1 1 5885392C
+P 4450 3650
+F 0 "#PWR042" H 4450 3400 50  0001 C CNN
+F 1 "GND" H 4550 3550 50  0000 C CNN
+F 2 "" H 4450 3650 50  0000 C CNN
+F 3 "" H 4450 3650 50  0000 C CNN
+	1    4450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3650 4550 3650
+NoConn ~ 5300 2250
+NoConn ~ 5300 2350
+NoConn ~ 5300 2450
+NoConn ~ 5300 2550
+NoConn ~ 5300 2750
+NoConn ~ 5300 3250
+NoConn ~ 3800 3250
+NoConn ~ 3800 3150
+NoConn ~ 3800 3050
+NoConn ~ 3800 2950
+NoConn ~ 3800 2850
+NoConn ~ 3800 2750
+NoConn ~ 3800 2650
+NoConn ~ 3800 2550
+Connection ~ 4550 3650
+Connection ~ 4450 3650
+$Comp
+L power:GND #PWR043
+U 1 1 58853943
+P 6250 2650
+F 0 "#PWR043" H 6250 2400 50  0001 C CNN
+F 1 "GND" H 6250 2500 50  0000 C CNN
+F 2 "" H 6250 2650 50  0000 C CNN
+F 3 "" H 6250 2650 50  0000 C CNN
+	1    6250 2650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3800 2250
+NoConn ~ 3800 2350
+Wire Wire Line
+	3350 3850 5400 3850
+NoConn ~ 6550 2650
+NoConn ~ 6650 2650
+NoConn ~ 6750 2650
+$Comp
+L robo-rescue:CONN_01X08 P22
+U 1 1 58853984
+P 6500 2450
+F 0 "P22" V 6600 2800 50  0000 C CNN
+F 1 "CONN_01X08" V 6600 2450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 6500 2450 50  0001 C CNN
+F 3 "" H 6500 2450 50  0000 C CNN
+	1    6500 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L robo-rescue:CONN_01X07 P20
+U 1 1 58866112
+P 3600 3450
+F 0 "P20" H 3600 3850 50  0000 C CNN
+F 1 "CONN_01X07" V 3700 3450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 3600 3450 50  0001 C CNN
+F 3 "" H 3600 3450 50  0000 C CNN
+	1    3600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L robo-rescue:CONN_01X07 P21
+U 1 1 588662DE
+P 3600 4250
+F 0 "P21" H 3600 4650 50  0000 C CNN
+F 1 "CONN_01X07" V 3700 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 3600 4250 50  0001 C CNN
+F 3 "" H 3600 4250 50  0000 C CNN
+	1    3600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L robo-rescue:CONN_01X10 P19
+U 1 1 58867F92
+P 3150 3600
+F 0 "P19" H 3150 4150 50  0000 C CNN
+F 1 "CONN_01X10" V 3250 3600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 3150 3600 50  0001 C CNN
+F 3 "" H 3150 3600 50  0000 C CNN
+	1    3150 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3150 3400 3150
+Wire Wire Line
+	3350 3250 3400 3250
+Wire Wire Line
+	3350 3350 3400 3350
+Wire Wire Line
+	3350 3450 3400 3450
+Wire Wire Line
+	3350 3550 3400 3550
+Wire Wire Line
+	3350 3650 3400 3650
+Wire Wire Line
+	3350 3750 3400 3750
+Wire Wire Line
+	3350 3950 3400 3950
+Wire Wire Line
+	3350 4050 3400 4050
+NoConn ~ 3400 4150
+NoConn ~ 3400 4250
+NoConn ~ 3400 4350
+NoConn ~ 3400 4450
+NoConn ~ 3400 4550
+Wire Wire Line
+	4550 3650 4650 3650
+$EndSCHEMATC

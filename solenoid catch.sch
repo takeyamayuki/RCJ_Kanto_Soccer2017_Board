@@ -1,0 +1,132 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L robo-rescue:CONN_01X02 P18
+U 1 1 5884A8D8
+P 6150 2800
+F 0 "P18" H 6150 2950 50  0000 C CNN
+F 1 "CONN_01X02" V 6250 2800 50  0000 C CNN
+F 2 "B2P-VH_LF__SN_:JST_B2P-VH(LF)(SN)" H 6150 2800 50  0001 C CNN
+F 3 "" H 6150 2800 50  0000 C CNN
+	1    6150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L robo-rescue:CONN_01X02 P17
+U 1 1 5884A940
+P 5400 2800
+F 0 "P17" H 5400 2950 50  0000 C CNN
+F 1 "CONN_01X02" V 5500 2800 50  0000 C CNN
+F 2 "B2P-VH_LF__SN_:JST_B2P-VH(LF)(SN)" H 5400 2800 50  0001 C CNN
+F 3 "" H 5400 2800 50  0000 C CNN
+	1    5400 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 2750 5950 2750
+Wire Wire Line
+	5950 2850 5600 2850
+$Comp
+L Device:R_Small R44
+U 1 1 58854E54
+P 6400 3300
+F 0 "R44" H 6430 3320 50  0000 L CNN
+F 1 "330" H 6430 3260 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 6400 3300 50  0001 C CNN
+F 3 "" H 6400 3300 50  0000 C CNN
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L robo-rescue:OPTO_NPN Q32
+U 1 1 58854E5B
+P 6000 3400
+F 0 "Q32" H 5950 3250 50  0000 L CNN
+F 1 "NJL7502L" H 6150 3300 50  0001 L CNN
+F 2 "footprint:NJL7502" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0000 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R43
+U 1 1 58854E62
+P 6100 3900
+F 0 "R43" H 6130 3920 50  0000 L CNN
+F 1 "10k" H 6130 3860 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 6100 3900 50  0001 C CNN
+F 3 "" H 6100 3900 50  0000 C CNN
+	1    6100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3600 6100 3700
+Wire Wire Line
+	6100 4100 6100 4000
+Connection ~ 6100 3700
+Wire Wire Line
+	5850 4100 6100 4100
+Wire Wire Line
+	5250 3700 6100 3700
+$Comp
+L robo-rescue:CONN_01X03 P16
+U 1 1 5885536B
+P 5050 3700
+F 0 "P16" H 5050 3900 50  0000 C CNN
+F 1 "CONN_01X03" V 5150 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5050 3700 50  0001 C CNN
+F 3 "" H 5050 3700 50  0000 C CNN
+	1    5050 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3800 5850 3800
+Wire Wire Line
+	5850 3800 5850 4100
+Connection ~ 6100 4100
+Wire Wire Line
+	5250 3600 5850 3600
+Wire Wire Line
+	6400 3200 6400 3150
+Wire Wire Line
+	6400 3150 6100 3150
+Wire Wire Line
+	5850 3150 5850 3600
+Wire Wire Line
+	6100 3200 6100 3150
+Connection ~ 6100 3150
+$Comp
+L robo-rescue:LED D34
+U 1 1 58854E4D
+P 6400 3750
+F 0 "D34" H 6400 3850 50  0000 C CNN
+F 1 "LED" H 6400 3650 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 6400 3750 50  0001 C CNN
+F 3 "" H 6400 3750 50  0000 C CNN
+	1    6400 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 3400 6400 3550
+Wire Wire Line
+	6400 4100 6400 3950
+Wire Wire Line
+	6100 3700 6100 3800
+Wire Wire Line
+	6100 4100 6400 4100
+Wire Wire Line
+	6100 3150 5850 3150
+$EndSCHEMATC

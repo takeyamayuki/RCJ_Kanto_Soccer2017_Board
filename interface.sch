@@ -1,0 +1,102 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L robo-rescue:AQM1248A U27
+U 1 1 580981DF
+P 4550 3100
+F 0 "U27" H 4700 3250 60  0000 C CNN
+F 1 "AQM1248A" H 4750 3150 60  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x07" H 4550 3100 60  0001 C CNN
+F 3 "" H 4550 3100 60  0000 C CNN
+	1    4550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L robo-rescue:DCV-meter U26
+U 1 1 58098322
+P 4200 3850
+F 0 "U26" H 4200 3850 60  0000 C CNN
+F 1 "DCV-meter" H 4200 4100 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4200 3850 60  0001 C CNN
+F 3 "" H 4200 3850 60  0000 C CNN
+	1    4200 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2750 3800 2750
+Wire Wire Line
+	3400 2850 3800 2850
+Wire Wire Line
+	3400 2950 3800 2950
+Wire Wire Line
+	3400 3050 3800 3050
+Wire Wire Line
+	3400 3150 3800 3150
+Wire Wire Line
+	3400 3250 3800 3250
+Wire Wire Line
+	3400 3350 3800 3350
+Wire Wire Line
+	3400 3650 3600 3650
+Wire Wire Line
+	3600 3650 3600 3850
+Wire Wire Line
+	3600 3850 3800 3850
+Wire Wire Line
+	3400 3550 4700 3550
+Wire Wire Line
+	4700 3550 4700 3850
+Wire Wire Line
+	4700 3850 4600 3850
+$Comp
+L robo-rescue:CONN_01X07 P14
+U 1 1 58862AB6
+P 3200 3050
+F 0 "P14" H 3200 3450 50  0000 C CNN
+F 1 "CONN_01X07" V 3300 3050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 3200 3050 50  0001 C CNN
+F 3 "" H 3200 3050 50  0000 C CNN
+	1    3200 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L robo-rescue:CONN_01X07 P15
+U 1 1 58865EC6
+P 3200 3850
+F 0 "P15" H 3200 4250 50  0000 C CNN
+F 1 "CONN_01X07" V 3300 3850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 3200 3850 50  0001 C CNN
+F 3 "" H 3200 3850 50  0000 C CNN
+	1    3200 3850
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3400 3750
+NoConn ~ 3400 3850
+NoConn ~ 3400 3950
+NoConn ~ 3400 4050
+NoConn ~ 3400 4150
+$Comp
+L power:PWR_FLAG #FLG039
+U 1 1 58833F2C
+P 3400 2750
+F 0 "#FLG039" H 3400 2845 50  0001 C CNN
+F 1 "PWR_FLAG" H 3400 2930 50  0000 C CNN
+F 2 "" H 3400 2750 50  0000 C CNN
+F 3 "" H 3400 2750 50  0000 C CNN
+	1    3400 2750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
